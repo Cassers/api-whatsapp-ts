@@ -1,4 +1,4 @@
-FROM node:18-alpine as node
+FROM node:22.23.5-alpine as node
 
 WORKDIR /app
 # Installs latest Chromium (92) package.
